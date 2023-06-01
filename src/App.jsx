@@ -4,8 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const ouput = fetch("https://jsonplaceholder.typicode.com/albums");
-  console.log(album);
+  const output = fetch("https://jsonplaceholder.typicode.com/albums");
+  console.log(output);
 
   album
     .then((rightSong) => rightSong.json())
