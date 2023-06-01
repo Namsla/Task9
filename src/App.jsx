@@ -3,8 +3,12 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
+//ask 9: Handling Promises with JSONPlaceholder API Endpoint #1
+
+//The result after changing the url address
+
 function App() {
-  const output = fetch("https://jsonplaceholder.typicode.com/albums");
+  const output = fetch("https://jasonplaceholder.typicode.com/albms");
   console.log(output);
 
   album
